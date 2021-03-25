@@ -29,7 +29,7 @@ const config = {
   },
   externals: {
     'react': 'react',
-    'firebaseui': 'firebaseui',
+    'firebaseui': "./node_modules/firebaseui",
   },
   devtool: 'source-map',
   resolve: {
