@@ -1,4 +1,4 @@
-import * as firebaseui from 'firebaseui';
+import * as firebaseui from 'custom-firebaseui-es-419';
 import * as React from 'react';
 
 export interface Props {

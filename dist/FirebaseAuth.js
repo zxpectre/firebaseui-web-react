@@ -37,9 +37,9 @@ var FirebaseAuth = function (_React$Component) {
   FirebaseAuth.prototype.componentDidMount = function componentDidMount() {
     var _this2 = this;
 
-    require('firebaseui/dist/firebaseui.css');
+    require('custom-firebaseui-es-419/dist/firebaseui.css');
 
-    var firebaseui = require('firebaseui');
+    var firebaseui = require('custom-firebaseui-es-419');
 
     return firebaseUiDeletion.then(function () {
       _this2.firebaseUiWidget = firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(_this2.firebaseAuth);

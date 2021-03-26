@@ -9,7 +9,7 @@
     "firebase": "^6.3.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-firebaseui": "file:../dist"
+    "custom-firebaseui-es-419": "^4.8.0"
   },
   "devDependencies": {
     "ajv": "^6.5.0",
